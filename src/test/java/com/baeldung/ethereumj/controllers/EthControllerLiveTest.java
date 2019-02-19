@@ -17,9 +17,9 @@ import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
-import com.baeldung.ethereumj.ApplicationMain;
-import com.baeldung.ethereumj.Constants;
-import com.baeldung.ethereumj.transfer.EthResponse;
+import com.stockchain.ApplicationMain;
+import com.stockchain.Constants;
+import com.stockchain.transfer.EthResponse;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = ApplicationMain.class, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)

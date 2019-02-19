@@ -1,7 +1,5 @@
 package com.baeldung.web3j.controllers;
 
-import com.baeldung.web3j.constants.Constants;
-import com.baeldung.web3j.services.Web3Service;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,6 +9,10 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import com.stockchain.web3j.constants.Constants;
+import com.stockchain.web3j.controllers.EthereumRestController;
+import com.stockchain.web3j.services.Web3Service;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.asyncDispatch;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

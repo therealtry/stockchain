@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.stockchain.web3j.services.Web3Service;
+
 public class EthereumContractUnitTest {
 
     private Web3Service web3Service;

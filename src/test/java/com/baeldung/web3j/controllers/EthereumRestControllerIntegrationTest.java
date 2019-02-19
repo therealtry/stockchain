@@ -1,8 +1,6 @@
 package com.baeldung.web3j.controllers;
 
 
-import com.baeldung.web3j.config.AppConfig;
-import com.baeldung.web3j.constants.Constants;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,6 +13,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
+
+import com.stockchain.web3j.config.AppConfig;
+import com.stockchain.web3j.constants.Constants;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.asyncDispatch;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
